@@ -2,6 +2,7 @@ body{
     letter-spacing: 2px;
     word-spacing: 10px;
     line-height: 20px;
+    margin: 50px auto;
 }
 
 h1{
@@ -12,9 +13,10 @@ h1{
     width: 590px;
     padding: 30px;
     border: 5px solid rgba(129, 97, 97, 0.548) ;
-    margin: 30px;
+    margin: 30px ;
     border-radius: 20px;
     box-shadow: -5px 5px 10px rgb(204, 136, 9) ;
+    
 }
 
 
@@ -31,8 +33,12 @@ h2{
 a{
     text-decoration: none;
     text-overflow: unset red;
-    text-shadow: 3px 3px 4px #444;
+    text-shadow: 3px 3px 4px #444; 
 
+}
+
+p{
+    border: 2px solid blue;
 }
 
 .p1{
@@ -40,19 +46,24 @@ a{
     border-width: 7px;
     border-color: yellow;
     border-style: ridge;
-padding: 50px 20px 50px 20px;
+    padding: 30px 20px 30px 20px;
 }
 
 .p2{
     text-transform: capitalize;
 }
 
+
+
 .div1{
     background-color: #088;
-    width: 500px;
-    height: 600px;
-    padding: 20px 200px 20px 200px;
+    width: 300px;
+    height: 400px;
+    padding: 20px 100px 20px 100px;
     margin: 50px auto;
     box-shadow: 5px 5px 10px purple ;
+    overflow: auto;
 
 }
+
+
